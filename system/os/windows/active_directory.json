@@ -1,0 +1,27 @@
+[
+    {
+        "name": "AD - back to basics part 1",
+        "description" : "Review the basics of Active Directory",
+        "type" : "Learning",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "AD Overview", "description": "Get an overview on AD (watching vidéos playlist : https://www.youtube.com/watch?v=fzZzpLD9EJM&list=PLSuzYIVSEUT4VSB0m0NdiML2V0PDWQyAN)", "duration": "02:00:00"},
+            {"name": "AD introduction", "description": "Read the introduction of AD (8 part) : https://neptunet.fr/intro-ad-p1/", "duration": "00:45:00"},
+            {"name": "AD application", "description": "Initial AD configuration (watching vidéos : https://www.youtube.com/watch?v=Nw9C5FInGF8)", "duration": "00:15:00"}
+        ]
+    },
+
+    {
+        "name": "AD - back to basics part 2",
+        "description" : "Review the basics of Active Directory",
+        "type" : "Learning",
+        "tag" : "system",
+        "initial_duration" : "6 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "AD course 1", "description": "Follow the course about AD : https://openclassrooms.com/fr/courses/2222496-centralisez-et-securisez-votre-annuaire-active-directory", "duration": "06:00:00"}
+        ]
+    }
+]

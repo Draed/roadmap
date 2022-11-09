@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Docker - Back to basics ",
+        "description" : "Re-learning docker basic component",
+        "type" : "Learning",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Docker overview", "description": "Read the docker overview from official documentation (https://docs.docker.com/get-started/overview/)", "duration": "00:15:00"},
+            {"name": "What is a container", "description": "Watch presentation of Liz Rice (https://www.youtube.com/watch?v=8fi7uSYlOdc) to trully understand container ", "duration": "00:45:00"},
+            {"name": "linux filesystem", "description": "Get in deep with linux filesystem and get a fresh reminder on how they work (https://likegeeks.com/linux-file-system/)", "duration": "00:15:00"},
+            {"name": "docker rootless mode", "description": "How rootless mode work : (https://medium.com/@tonistiigi/experimenting-with-rootless-docker-416c9ad8c0d6)", "duration": "00:30:00"},
+            {"name": "docker vs lxc ", "description": " docker vs lxc comparison : (https://earthly.dev/blog/lxc-vs-docker/)", "duration": "01:00:00"},
+            {"name": "syscall reminder ", "description": " quick reminder on  how syscall works : (https://en.wikipedia.org/wiki/System_call)", "duration": "00:15:00"}
+        ]
+    },
+
+    {
+        "name": "Docker - Theory behind rootless mode ",
+        "description" : "Understand all concepts behind the rootless mode on docker (https://docs.docker.com/engine/security/rootless/)",
+        "type" : "Learning",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "kernel.unprivileged_userns_clone", "description": "Understand what does 'enabling kernel.unprivileged_userns_clone' do (https://security.stackexchange.com/questions/209529/what-does-enabling-kernel-unprivileged-userns-clone-do)", "duration": "00:15:00"},
+            {"name": "dbus-user-session", "description": "Understand what is 'dbus-user-session' (https://packages.debian.org/sid/dbus-user-session) ", "duration": "00:15:00"},
+            {"name": "user namespace in deep", "description": "Understand how 'user namespace' is working (https://www.howtogeek.com/devops/what-are-linux-namespaces-and-what-are-they-used-for/) and (https://www.linux.com/news/understanding-and-securing-linux-namespaces/)", "duration": "01:00:00"},
+            {"name": "userns-remap mode", "description": "Understand how 'userns-remap' is working (https://docs.docker.com/engine/security/userns-remap/)", "duration": "00:15:00"},
+            {"name": "storage drivers", "description": "What are the storage drivers for docker and how they work (fuse-overlayfs, btrfs, overlay2, vfs)", "duration": "01:00:00"},
+            {"name": "slirp4netns", "description": "How 'slirp4netns' is working ? (https://mcastelino.medium.com/slirp4netns-how-does-it-work-5c0bd31200ce)", "duration": "00:15:00"}
+        ]
+    },
+
+    {
+        "name": "Docker - POC docker rootless installation ",
+        "description" : " Docker installation in rootless mode based on official documentation (https://docs.docker.com/engine/security/rootless) and best practice (https://docs.docker.com/engine/security/)",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "6 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "docker doc rootless", "description": "See docker official doc to understand how to configure docker in rootless mode (https://docs.docker.com/engine/security/rootless)", "duration": "00:15:00"},
+            {"name": "docker security best practice", "description": "See docker official doc to understand how to secure docker (https://docs.docker.com/engine/security/)", "duration": "00:15:00"},
+            {"name": "docker rootless demo", "description": "Try the demo of docker rootless mode for better understanding (https://github.com/dkapanidis/docker-rootless)", "duration": "02:30:00"},
+            {"name": "Ansible playbook docker rootless", "description": "See Ansible playbook to install rootless docker (https://github.com/konstruktoid/ansible-role-docker-rootless)", "duration": "03:00:00"}
+
+        ]
+    },
+
+
+    {
+        "name": "Docker - POC docker remote host configuration ",
+        "description" : "Configure docker to be used as remote host with SSL secure (not simple TCP)",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Configure remote host", "description": "Configure docker daemon to bind IP address instead of unix socket, tutorial : (https://www.howtogeek.com/devops/how-and-why-to-use-a-remote-docker-host/)", "duration": "00:15:00"},
+            {"name": "Configure Client", "description": "Configure Client to use remote host (with context)", "duration": "00:30:00"}
+        ]
+    },
+
+    {
+        "name": "Docker - Back to basics part 2",
+        "description" : "Re-learning docker basic component",
+        "type" : "Learning",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "user space", "description": "User space and usernamespace (https://en.wikipedia.org/wiki/User_space_and_kernel_space)", "duration": "00:15:00"},
+            {"name": "What is a container - video", "description": "re-Watch presentation of Liz Rice about cgroups TC-25:52 (https://www.youtube.com/watch?v=8fi7uSYlOdc) to trully understand container ", "duration": "00:05:00"},
+            {"name": "What is a container - article IBM", "description": "Read article from IBM lear hub (https://www.ibm.com/cloud/learn/containers)", "duration": "00:05:00"},
+            {"name": "cgroups", "description": "cgroups definition (https://en.wikipedia.org/wiki/Cgroups)", "duration": "00:10:00"},
+            {"name": "chroot", "description": " chroot definition : (https://en.wikipedia.org/wiki/Chroot)", "duration": "00:05:00"},
+            {"name": "syscall reminder 2 ", "description": " quick reminder on  how syscall works : (https://en.wikipedia.org/wiki/System_call)", "duration": "00:05:00"},
+            {"name": "interrupt / trap proc", "description": "trap processor instruction used to stop current executing code (https://en.wikipedia.org/wiki/Interrupt)", "duration": "00:15:00"},
+            {"name": "container vs virtual - atlassian", "description": "container vs virtual machine article : (https://www.atlassian.com/microservices/cloud-computing/containers-vs-vms#:~:text=The%20key%20differentiator%20between%20containers,above%20the%20operating%20system%20level.)", "duration": "00:15:00"},
+            {"name": "container vs virtual machine - red hat", "description": "container vs virtual machine article : (https://www.redhat.com/en/topics/containers/containers-vs-vms)", "duration": "00:15:00"},
+            {"name": "What is KVM - red hat", "description": "KVM definition : (https://www.redhat.com/en/topics/virtualization/what-is-KVM)", "duration": "00:15:00"},
+            {"name": "Kernel definition", "description": "kernel definition : (https://en.wikipedia.org/wiki/Kernel_(operating_system))", "duration": "00:05:00"},
+            {"name": "IPC definition", "description": "Inter process communication definition : (https://en.wikipedia.org/wiki/Inter-process_communication)", "duration": "00:05:00"},
+            {"name": "Docker Best practices", "description": "Get basic docker best practices from the video : (https://www.youtube.com/watch?v=8vXoMqWgbQQ)", "duration": "00:20:00"}
+                        
+        ]
+    }
+]

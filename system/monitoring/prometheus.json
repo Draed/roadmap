@@ -1,0 +1,13 @@
+[
+    {
+        "name": "monitoring - prometheus + docker",
+        "description" : "Discover Terraform ",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Monitor container with prometheus", "description": "Monitoring docker container with prometheus from tutorial (https://github.com/56kcloud/Training/blob/main/DockerCon/monitoring/monitoring-stack.md)", "duration": "03:00:00"}
+        ]
+    }
+]

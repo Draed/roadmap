@@ -1,0 +1,54 @@
+[
+    {
+        "name": "VPN - part 1",
+        "description" : "Discover what is a VPN ",
+        "type" : "Learning",
+        "tag" : "network",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "VPN overview 1", "description": "Get an overview on VPN (watching vidéos : https://www.youtube.com/watch?v=z0406rZQWfU)", "duration": "00:30:00"},
+            {"name": "VPN overview 2", "description": "Get an overview on VPN (reading article from frameip : https://www.frameip.com/vpn/)", "duration": "02:00:00"}
+        ]
+    },
+
+    {
+        "name": "VPN - part 2",
+        "description" : "Discover what is a VPN ",
+        "type" : "Learning",
+        "tag" : "network",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "VPN intro ", "description": "Read the introduction to VPn : https://neptunet.fr/vpn-ipsec/", "duration": "00:30:00"},
+            {"name": "IPSEC overview 1", "description": "Get an overview on IPSEC (reading article from frameip : https://www.frameip.com/ipsec/#1-8211-introduction-au-protocole-ipsec)", "duration": "01:30:00"}
+        ]
+    },
+
+    {
+        "name": "VPN - openvepn",
+        "description" : "Build an openvpn server",
+        "type" : "POC",
+        "tag" : "network",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "OpenVPN quickstart", "description": "read HowTo article : (https://openvpn.net/community-resources/how-to/#openvpn-quickstart)", "duration": "00:30:00"},
+            {"name": "Build openvpn server", "description": "Build a tiny openVPN server from : (https://openvpn.net/community-resources/static-key-mini-howto/)", "duration": "02:30:00"}
+        ]
+    },
+
+    {
+        "name": "VPN - wireguard",
+        "description" : "Build an wireguard vpn server",
+        "type" : "POC",
+        "tag" : "network",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Concept overview", "description": "read concept article : (https://www.wireguard.com/#conceptual-overview)", "duration": "00:30:00"},
+            {"name": "Build wireguard vpn server", "description": "Build a tiny wireguard server from : (https://www.wireguard.com/quickstart/)", "duration": "02:30:00"}
+        ]
+    }
+]
+
