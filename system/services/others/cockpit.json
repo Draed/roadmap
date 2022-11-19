@@ -1,0 +1,15 @@
+[
+    {
+        "name": "cockpit - discovering",
+        "description" : "Testing the tools cockpit",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Install cockpit server", "description": "Following the tutorial : https://www.tutorialworks.com/podman-monitoring-cockpit-fedora/", "duration": "01:00:00"},
+            {"name": "Read more about cockpit", "description": "Learn more on cockpit from the documentation : https://opensource.com/article/20/11/cockpit-server-management", "duration": "01:00:00"},
+            {"name": "install plugin for podman", "description": "installing a plugin for managing podman container : https://docs.oracle.com/en/operating-systems/oracle-linux/cockpit/cockpit-podman.html#managing-podman-containers", "duration": "01:00:00"}
+        ]
+    }
+]

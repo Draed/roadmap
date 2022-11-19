@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Cybersec - nikto",
+        "description" : "Testing nikto (web server vulnerability scanner) tool using docker / podman container",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Install and configure nikto container", "description": "Install and configure nikto (docker/podman), following : https://github.com/sullo/nikto ", "duration": "00:30:00"},
+            {"name": "Playing with the tool", "description": "Test it on a test webserver and get result", "duration": "00:30:00"}
+        ]
+    }
+]

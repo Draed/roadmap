@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Cybersec - ftp hack",
+        "description" : "Try to get access on an unsecure FTP server, list all file on it and try to read some password protected PDF.",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Brute force attack on VSFTP ", "description": "create python script to launch bruteforce attack, from : https://www.thepythoncode.com/article/brute-force-attack-ftp-servers-using-ftplib-in-python", "duration": "00:30:00"},
+            {"name": "Crack pdf file", "description": " list and crack pdf encrypted file, from : https://www.thepythoncode.com/article/crack-pdf-file-password-in-python", "duration": "00:30:00"}
+        
+        ]
+    }
+]

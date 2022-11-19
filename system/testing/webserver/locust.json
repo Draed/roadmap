@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Locust - first test",
+        "description" : "Test Locust (load testing framework)",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Testing Locust", "description": "Testing Locsut in very simple lab, following : https://www.it-connect.fr/serveur-web-tests-de-charge-en-python-avec-locust/", "duration": "01:30:00"}
+        ]
+    }
+]

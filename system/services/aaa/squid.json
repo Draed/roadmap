@@ -1,0 +1,14 @@
+[
+    {
+        "name": "squid - discovering",
+        "description" : "Create a squid proxy in podman for http logging ",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Create dockerfile", "description": "Create the squid dockerfile from the official image", "duration": "01:00:00"},
+            {"name": "Testing it", "description": "Test the image and view the squid logs", "duration": "00:30:00"}
+        ]
+    }
+]

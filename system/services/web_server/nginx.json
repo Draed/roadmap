@@ -1,0 +1,13 @@
+[
+    {
+        "name": "nginx - discovering",
+        "description" : "Start a nginx container with podman",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Start nginx container", "description": "Start nginx service with podman container, following tutorial : https://unixcop.com/5-step-nginx-contains-podman-easy/", "duration": "01:00:00"}
+        ]
+    }
+]

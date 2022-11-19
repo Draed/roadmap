@@ -1,0 +1,15 @@
+[
+    {
+        "name": "restic - discovering",
+        "description" : "First steps with restic backup tools",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Install restic backup server", "description": "Following the tutorial : https://adamtheautomator.com/restic-backup/", "duration": "00:30:00"},
+            {"name": "Read restic documentation", "description": "Learn more on restic from the official documentation : https://restic.readthedocs.io/en/latest/", "duration": "01:00:00"},
+            {"name": "Restic ansible playbook", "description": "Create an ansible playbook to install restic server and configure clients : https://github.com/donat-b/ansible-restic", "duration": "01:00:00"}
+        ]
+    }
+]

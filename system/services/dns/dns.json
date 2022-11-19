@@ -1,0 +1,16 @@
+[
+    {
+        "name": "DNS - big lab",
+        "description" : "Create a 'overcomplicated' DNS server in podman container with bind, cloudflared and pihole. Based on the tutorial from : https://sinister.io/articles/podman-dns/",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Create dockerfile", "description": "Create the dockerfile for bind9 and cloudflared", "duration": "01:00:00"},
+            {"name": "Configure bind9 container", "description": "Configure bind9 container to run in podman : https://medium.com/nagoya-foundation/running-a-dns-server-in-docker-61cc2003e899", "duration": "00:30:00"},
+            {"name": "Configure pihole", "description": "configure pihole container", "duration": "00:30:00"},
+            {"name": "Configure cloudlared for DOH", "description": "configure cloudlared container", "duration": "00:30:00"}
+        ]
+    }
+]

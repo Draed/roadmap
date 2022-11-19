@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Cybersec - snort",
+        "description" : "Testing snort from podman/docker container",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Install and configure snort container", "description": "Install and configure snort (docker/podman), following : https://github.com/John-Lin/docker-snort/", "duration": "01:30:00"},
+            {"name": "Test it with nmap", "description": "Test it with nmap scanning detection, following : https://frankfu.click/security/ids/how-to-detect-nmap-scan-using-snort/", "duration": "01:00:00"}
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Jenkins - first lab",
+        "description" : "Create CI/CD plateform based on Gogs (gitwith web interface + Postgresql), Jenkins and Docker and testing it with a node.js simple app.",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Install and configure node hello-world app container", "description": "Create the 'hello-world' app in node.js container", "duration": "00:15:00"},
+            {"name": "Install and configure Jenkins container", "description": "Install and configure jenkins container following : https://medium.com/@gustavo.guss/quick-tutorial-of-jenkins-b99d5f5889f2 ", "duration": "00:30:00"},
+            {"name": "Install and configure postrgeSQL container", "description": "Install and configure postrgeSQL for Gogs with container (docker/podman), following : https://hub.docker.com/_/postgres/ ", "duration": "00:30:00"},
+            {"name": "Install and configure postrgeSQL container", "description": "Install and configure Gogs (as git server) with container (docker/podman), following : https://www.jenx.si/2019/10/25/how-to-host-your-private-git-service-inside-docker/ ", "duration": "00:30:00"},
+            {"name": "Create CI/CD pipeline", "description": "Create a pipeline on jenkins to build the node.js app", "duration": "00:15:00"},
+            {"name": "Explore jenkins other features", "description": "Play with jenkins web interface", "duration": "01:00:00"}
+        ]
+    }
+]

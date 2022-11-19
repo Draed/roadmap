@@ -1,0 +1,14 @@
+[
+    {
+        "name": "OpenProject - discovering",
+        "description" : "Testing OpenProject, an open source project management software. ",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Install and configure mariaDb container", "description": "Following the documentation : https://www.openproject.org/docs/installation-and-operations/installation/docker/", "duration": "01:00:00"},
+            {"name": "Playing with the tool", "description": "Testing it with some dummy project", "duration": "01:00:00"}
+        ]
+    }
+]

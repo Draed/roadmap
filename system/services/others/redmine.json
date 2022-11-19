@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Redmine - discovering",
+        "description" : "Testing redmine, an open source project management software. ",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Install and configure postgres container", "description": "Install and configure database for redmine with container (docker/podman), following : https://hub.docker.com/_/postgres ", "duration": "00:30:00"},
+            {"name": "Install and configure redmine container", "description": "Install and configure redmin with container (docker/podman), following : https://hub.docker.com/_/redmine/", "duration": "00:30:00"},
+            {"name": "adding redmine theme", "description": "attach to redmine container and add a new theme from : https://github.com/farend/redmine_theme_farend_bleuclair/releases", "duration": "00:30:00"},
+            {"name": "Playing with the tool", "description": "Testing it with some dummy project", "duration": "01:00:00"}
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Web dev with python",
+        "description" : "Create a modern website with frontend (flask) and backend (react.js)",
+        "type" : "Learning",
+        "tag" : "dev",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Part 1 - API", "description": "Create the first part with flask backend API and javascript : https://realpython.com/the-ultimate-flask-front-end/", "duration": "01:00:00"},
+            {"name": "Part 2 - frontend", "description": "Create the second part with gulp and react : https://realpython.com/the-ultimate-flask-front-end-part-2/", "duration": "02:00:00"}
+        ]
+    },
+    
+    {
+        "name": "Programming in python part 1",
+        "description" : "Change newbie habits with python",
+        "type" : "Learning",
+        "tag" : "dev",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Watch simple python video", "description": "Watch the video 25 nooby habits : (https://www.youtube.com/watch?v=qUeud6DvOWI&t=256s)", "duration": "00:10:00"},
+            {"name": "TODO", "description": "TODO :  ", "duration": "02:00:00"}
+        ]
+    }
+]

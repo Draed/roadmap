@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Podman - first lab ",
+        "description" : "Test podman and compare with docker (rootless container, rights, namespace, port, etc ...)",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "User ID in podman", "description": "Understanding the rootless process in podman with user id, following : https://blog.christophersmart.com/2021/01/26/user-ids-and-rootless-containers-with-podman/", "duration": "00:30:00"},
+            {"name": "rootless process in podman", "description": "Test the rootless features in lab, following : https://medium.com/techbull/what-is-user-namespace-and-podmans-rootless-containers-fc4c292c6bad", "duration": "00:45:00"},
+            {"name": "podman container's port", "description": "Quick reminder on container's port limitation in rootless ", "duration": "00:05:00"},
+            {"name": "podman UID, namespace", "description": "Quick reminder on UID and namespace in podman ", "duration": "00:10:00"},
+            {"name": "Play with podman", "description": "troubleshoot podman to get data on container (Rights, PID, namespace and roots authorization,  ports and networks,Stats (cpu, ram, ...), logs)", "duration": "01:30:00"}
+        ]
+    }
+]

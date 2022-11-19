@@ -1,0 +1,14 @@
+[
+    {
+        "name": "dhcpd in docker ",
+        "description" : "Install a simple dhcpd server in docker container for testing purpose",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Create dhcp container", "description": "Following gist : https://gist.github.com/mikejoh/04978da4d52447ead7bdd045e878587d", "duration": "01:00:00"}
+        ]
+    }
+
+]

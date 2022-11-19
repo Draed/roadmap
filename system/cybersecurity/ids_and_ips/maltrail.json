@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Cybersec - maltrail",
+        "description" : "Testing maltrail, a network malicous traffic analyzer : https://github.com/stamparm/maltrail",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Install and configure maltrail container", "description": "Install and configure maltrail (docker/podman), following : https://github.com/johackim/docker-maltrail ", "duration": "00:30:00"},
+            {"name": "Playing with the tool", "description": "Generate malicous traffic and get result on maltrail web interface", "duration": "01:30:00"}
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Cybersec - container",
+        "description" : "Testing challenge 'Hacking Docker Remotely' from : https://hackarandas.com/blog/2020/03/17/hacking-docker-remotely/",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Configure the podamn remote host", "description": "Configure the podamn remote host, following : https://www.cloudassembler.com/post/remote-podman-service/", "duration": "00:45:00"},
+            {"name": "Configure the docker remote host", "description": "Configure the docker remote host, following : https://linuxhandbook.com/docker-remote-access/", "duration": "00:45:00"},
+            {"name": "Build a nmap scan container", "description": "build a nmap container to scan network (nmap help from : https://www.redhat.com/sysadmin/quick-nmap-inventory)", "duration": "00:45:00"},
+            {"name": "Launch attack on docker remote host", "description": "Attack Vector 1: SSH and Sudo Abuse, still from : https://linuxhandbook.com/docker-remote-access/", "duration": "00:45:00"}
+        ]
+    }
+]
