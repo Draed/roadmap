@@ -1,0 +1,16 @@
+[
+    {
+        "name": "IAC - vagrant lab 1",
+        "description" : "Deploy simple debian machine on virtualbox",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Read about vagrant basic usage", "description": "Follow really simple tutorial : https://medium.com/@kushwah.1/vagrant-tutorial-for-beginners-a8fc0cc9ac6d", "duration": "00:15:00"},
+            {"name": "Create vagrantfile", "description": "Create a simple vagrantfile for launching the debian VM", "duration": "01:30:00"},
+            {"name": "Adding provisionning to vagrantfile", "description": "Adding provision to vagrantfile (Shell + ansible), following : https://developer.hashicorp.com/vagrant/docs/provisioning/basic_usage", "duration": "01:00:00"},
+            {"name": "Troubleshooting", "description": "Troubleshooting and learn vagrant command", "duration": "00:15:00"}
+        ]
+    }
+]

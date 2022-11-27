@@ -1,0 +1,16 @@
+[
+    {
+        "name": "CICD - docker lab 1",
+        "description" : "A short lab in order to create a test/dev environement for a simple python web app (python + postgresql / adminer).",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Create python app", "description": "Create really simple python web app working with postgresql database ", "duration": "00:40:00"},
+            {"name": "Create the container for python app", "description": "Create the container for python app", "duration": "00:40:00"},
+            {"name": "Create the container for postgresql", "description": "Create the container for postgresql", "duration": "00:30:00"},
+            {"name": "Get everything into docker compose", "description": "wrap up everything into docker compose, following : https://www.docker.com/blog/how-to-use-the-postgres-docker-official-image/", "duration": "00:40:00"}
+        ]
+    }
+]

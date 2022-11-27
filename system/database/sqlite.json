@@ -1,0 +1,14 @@
+[
+    {
+        "name": "database - sqlite lab 1",
+        "description" : "Transfer data from sqlite database to postgrsql database",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Find a solution to import and export data", "description": "Find a solution (homemade script or tools) for exporting data from sqlite and importing to postgresql", "duration": "01:30:00"},
+            {"name": "Test the solution", "description": "Test solution on postgresql docker database", "duration": "01:30:00"}
+        ]
+    }
+]

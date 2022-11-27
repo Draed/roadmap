@@ -1,0 +1,14 @@
+[
+    {
+        "name": "h8mail - h8mail lab 1",
+        "description" : "Testing  osint tools to get mail compromission, as always launching from container.",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Create docker element for h8mail", "description": "Create a docker image and a container for h8mail tools", "duration": "01:00:00"},
+            {"name": "Play with the tools", "description": "Play with the tools and try to get an automated process", "duration": "00:30:00"}
+        ]
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "name": "WDS - WDS discover part 1",
+        "description" : "Review the basics of WDS (Windows Deployment Service)",
+        "type" : "Learning",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Boot process on windows", "description": "review all the process in windows booting, following : https://www.youtube.com/watch?v=VDKvngQXFfU", "duration": "00:20:00"},
+            {"name": "PXE", "description": "Learn more about PXE, following : https://www.manageengine.com/products/os-deployer/pxe-preboot-execution-environment.html", "duration": "00:20:00"},
+            {"name": "PXE configuration", "description": "Learn about PXE configuration, following : https://learn.microsoft.com/en-us/windows/deployment/configure-a-pxe-server-to-load-windows-pe", "duration": "00:20:00"},
+            {"name": "Windows PE", "description": "Learn more about windwos PE, following : https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-intro?view=windows-11", "duration": "00:20:00"},
+            {"name": "WDS : Windows Deployment Service", "description": "Learn the basics of WDS, following : https://www.youtube.com/watch?v=22Tf5_bxsBg", "duration": "00:20:00"},
+            {"name": "WDS overview", "description": "Get an overview of WDS with the very good video from : https://www.youtube.com/watch?v=Ds733iuWw6o", "duration": "00:20:00"},
+            {"name": "WDS multicast", "description": "Learn about WDS with multicast config, following : https://www.youtube.com/watch?v=svaozN_AqTI", "duration": "00:20:00"}
+        ]
+    },
+    {
+        "name": "WDS - WDS discover part 2",
+        "description" : "Review the basics of WDS and MDT",
+        "type" : "Learning",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Sysprep", "description": "Learning more about sysprep, following : https://www.youtube.com/watch?v=xfr-x9zGXC4", "duration": "00:30:00"},
+            {"name": "MDT and WDS", "description": "Learn more about WDS working with MDT, following : https://www.youtube.com/watch?v=_uECcxjiuM8&t=1088s", "duration": "01:00:00"},
+            {"name": "DISM", "description": "Learn more about DISM, following : https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/what-is-dism?view=windows-11", "duration": "00:30:00"},
+            {"name": "SSCM", "description": "Learn more about SCCM tools, following : https://learn.microsoft.com/en-us/mem/configmgr/core/understand/what-happened-to-sccm", "duration": "00:30:00"}
+        ]
+    }
+    
+]
