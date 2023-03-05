@@ -1,0 +1,15 @@
+[
+    {
+        "name": "monitoring - telegraf lab 1",
+        "description" : "create A TIG (Telegraf, InfluxDB, Grafana stack and monitor docker",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "6 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Write TIG stack ansible playbook", "description": "create ansible playbook that install TIG stack following : https://plop.bzh/fr/ansible/tig-on-rpi/", "duration": "03:00:00"},
+            {"name": "", "description": "", "duration": "00:30:00"}
+        ]
+    }
+
+]

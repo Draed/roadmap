@@ -1,0 +1,14 @@
+[
+    {
+        "name": "database - mysql lab 1",
+        "description" : "mysql introduction in docker, create a simple database",
+        "type" : "POC",
+        "tag" : "system",
+        "initial_duration" : "3 hours",
+        "level" : "easy",
+        "task_list": [
+            {"name": "Learn about database in container", "description": "Watch talk from ovh about database in docker : https://www.youtube.com/watch?v=zYA92RxmAR8", "duration": "00:30:00"},
+            {"name": "TODO", "description": "TODO", "duration": "01:00:00"}
+        ]
+    }
+]
